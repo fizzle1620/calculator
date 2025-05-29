@@ -35,10 +35,14 @@ button{
     text-align: left;
     border: none;
     background-color: hsl(0, 0%, 20%);
+    color: white;
 }
 button:hover{
     background-color: hsl(0, 0%, 50%);
 }
 .operator-btn{
-    background-color: orange;
+    background-color: hsl(39, 100%, 50%);
+}
+.operator-btn:active{
+    background-color: hsl(39, 100%, 75%);
 }
